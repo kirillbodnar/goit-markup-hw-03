@@ -443,12 +443,17 @@ body {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
-  border: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .help-card-list {
   display: flex;
   flex-wrap: wrap;
+}
+.help-card-list img {
+  display: block;
 }
 
 .help-card-list .item {
